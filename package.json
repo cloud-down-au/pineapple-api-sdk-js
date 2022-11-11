@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "Javascript SDK to use the Pineapple API",
   "main": "index.js",
+  "@pineapple": {
+    "api": {
+      "version": "0.1.0",
+      "envs": {
+        "production": "todo",
+        "staging": "todo"
+      }
+    }
+  },
   "scripts": {
     "test": "mocha test"
   },

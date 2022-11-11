@@ -1,0 +1,27 @@
+{
+  "name": "@pineapple/api-sdk",
+  "version": "0.0.1",
+  "description": "Javascript SDK to use the Pineapple API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloud-down-au/pineapple-api-sdk-js.git"
+  },
+  "keywords": [
+    "pineapple",
+    "sdk"
+  ],
+  "author": "Kieran Simpson <kieran@clouddown.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloud-down-au/pineapple-api-sdk-js/issues"
+  },
+  "homepage": "https://github.com/cloud-down-au/pineapple-api-sdk-js#readme",
+  "dependencies": {
+    "hamjest": "^3.7.3",
+    "mocha": "^10.1.0"
+  }
+}

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Javascript SDK to use the Pineapple API",
   "main": "index.js",
+  "types": "types",
   "@pineapple": {
     "api": {
       "version": "0.1.0",
@@ -29,8 +30,14 @@
     "url": "https://github.com/cloud-down-au/pineapple-api-sdk-js/issues"
   },
   "homepage": "https://github.com/cloud-down-au/pineapple-api-sdk-js#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
     "hamjest": "^3.7.3",
-    "mocha": "^10.1.0"
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.3"
   }
 }

@@ -4,6 +4,10 @@
   "description": "Javascript SDK to use the Pineapple API",
   "main": "index.js",
   "types": "types",
+  "engines": {
+    "node": ">=18.7.x",
+    "npm": ">=8.15.x"
+  },
   "@pineapple": {
     "api": {
       "version": "0.1.0",
